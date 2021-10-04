@@ -19,6 +19,21 @@ class TweetsController < ApplicationController
     end
   end
 
+  def show
+    @tweet = Tweet.find(params[:id])
+    @comment = Comment.new
+    @comments = @tweet.comments.includes(:user)
+  end
+
+  def edit
+  end
+
+  def destroy
+    @tweet = Tweet.find(params[:id])
+    @tweet.destroy
+    redirect_to root_path
+  end
+
   def search
     return nil if params[:keyword] == ""
     tag = Tag.where(['name LIKE ?', "%#{params[:keyword]}%"] )
@@ -28,7 +43,7 @@ class TweetsController < ApplicationController
   private
 
   def tweet_params
-    params.require(:tweets_tag).permit(:message, :name)
+    params.require(:tweets_tag).permit(:image,:cinematitle,:title,:message,:name)
   end
 
 end
