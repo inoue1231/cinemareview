@@ -68,3 +68,7 @@ https://user-images.githubusercontent.com/88312861/135945678-c36e9051-73b9-4b3d-
 ●タグ検索機能（レビューをタグで検索できるようにする）
 
 ●レビューに外部サイトを紐付けできるようにする（NetflixやAmazonプライムの配信ページに飛べるようにしたい）
+
+# ER図
+<img width="400" alt="97314e7f1177ef5d2578461f594d0fd2" src="https://user-images.githubusercontent.com/88312861/135951813-fc622ad1-fe42-4007-a218-905b16d6773a.png">
+
