@@ -28,7 +28,6 @@ ID：admin　PASS：2222
 
 # 実装機能
 
-
 ●deviseによるユーザー登録機能
 
 <img width="500" alt="62107b22a11ffd3d20281eae3e79a5bf" src="https://user-images.githubusercontent.com/88312861/135942704-a060d442-2211-4ff9-ac2e-daecf4ae5697.png">
