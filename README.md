@@ -21,6 +21,7 @@ ID：admin　PASS：2222
 
 # 実装機能
 
-https://gyazo.com/62107b22a11ffd3d20281eae3e79a5bf
+62107b22a11ffd3d20281eae3e79a5bf.png
+
 
 
